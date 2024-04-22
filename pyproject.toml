@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "carte_preco"
+version = "0.0.1"
+description = ""
+authors = ["Vincent Lefoulon <vincent.lefoulon@laetis.fr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyshp = "^2.3.1"
+haversine = "^2.8.1"
+networkx = "^3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
